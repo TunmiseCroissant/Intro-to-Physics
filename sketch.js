@@ -3,6 +3,13 @@ let g = -0.981;
 let floor;
 let words = ""
 
+document.getElementById("restart").addEventListener("click", () => {
+    mass1.y = 200
+    mass1.x = 100
+    mass1.v = 20;
+    mass1.vx = 10;
+})
+
 function setup() {
     createCanvas(800, 600);
     background("white");
